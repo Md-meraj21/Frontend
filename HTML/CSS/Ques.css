@@ -1,0 +1,25 @@
+#Use {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px dotted black;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 50px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+#hello {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    margin: 23px; ;
+    border-radius: 50%;
+    display: inline-block;
+}
+li {
+    display: inline;
+    margin: 8px;
+}

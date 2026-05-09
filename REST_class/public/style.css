@@ -1,0 +1,20 @@
+h1 {
+    color: maroon;
+}
+
+.post {
+    background-color: rgb(240, 240, 152);
+}
+.user {
+    font-style: italic;
+    color: blue;
+}
+.cont {
+    font-style: italic;
+    color:darkolivegreen;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+form {
+    display: inline-block;
+}

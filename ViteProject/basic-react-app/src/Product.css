@@ -1,0 +1,14 @@
+.Product {
+  background: #6c6666;
+  border-radius: 14px;
+  padding: 0 10px 0 10px;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  width: 200px;
+  height: 150px;
+}
+
+.Dela {
+  margin:3rem 1rem ;
+}
+

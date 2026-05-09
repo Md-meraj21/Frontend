@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+
+    <form action="forms.html">
+        <div>
+            <label for="Name">Name :</label>
+            <input type="text" id="Name" placeholder="Enter your name  " required>
+        </div>
+        <div>
+            <label for="password">password :</label>
+            <input type="password" placeholder="Enter your password " id="password" required >
+        </div>
+        <button>Submit</button>
+    </form>
+    <form action="https://www.youtube.com/results">
+        <input type="text" placeholder="Search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+
+    <form action="https://www.bing.com/search">
+        <input type="text" placeholder="Search in Google" name="q">
+        <button>search</button>
+    </form>
+    <form action="/server">
+        <label for="age"> I'm 18+ </label>
+        <input type="checkbox" name="age" id="age"  >
+
+    </form>
+    <form action="re">
+        <input type="radio" name="fruit" id="apple" value="apple">
+        <label for="apple">Apple</label>
+        <input type="radio" name="fruit" id="Banana" value="Banana" >
+        <label for="Banana">Banana</label>
+        
+    </form>
+    <script>
+        let s = document.querySelector("form");
+        s.addEventListener("submit",function(event) {
+            event.preventDefault();
+            alert("Form submitted ");
+        });
+            </script>
+</body>
+
+</html>

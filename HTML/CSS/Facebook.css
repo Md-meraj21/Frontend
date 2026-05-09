@@ -1,0 +1,15 @@
+* {
+    font-family: 'Courier New';
+    text-align: center;
+}
+h1 {
+    color: #1b74e4;
+}
+.Login , .Register{
+    color: white;
+    background: rgb(132, 191, 191);
+}
+button {
+    background: #000;
+    color: white;
+}

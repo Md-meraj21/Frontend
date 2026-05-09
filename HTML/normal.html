@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Price Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+        .box {
+            width: 350px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        h2 {
+            text-align: center;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: darkgreen;
+        }
+    </style>
+
+    <script>
+        function calculateTotal() {
+            let total = 0;
+
+            if (document.getElementById("p1").checked)
+                total += 500;
+
+            if (document.getElementById("p2").checked)
+                total += 800;
+
+            if (document.getElementById("p3").checked)
+                total += 1200;
+
+            document.getElementById("result").innerHTML =
+                "Total Price: ₹" + total;
+        }
+    </script>
+</head>
+<body>
+
+    <div class="box">
+        <h2>Select Products</h2>
+
+        <input type="checkbox" id="p1"> Laptop Bag (₹500)<br><br>
+        <input type="checkbox" id="p2"> Headphones (₹800)<br><br>
+        <input type="checkbox" id="p3"> Keyboard (₹1200)<br><br>
+
+        <button onclick="calculateTotal()">Calculate Total</button>
+
+        <h3 id="result"></h3>
+    </div>
+
+</body>
+</html>

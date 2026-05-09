@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+
+<body> 
+    <h1>Student Registration Form</h1>
+    <form action="3Problem.html">
+        <div>
+            <label for="Name">Name</label>
+            <input id="Name" type="text" placeholder="Enter your Name" required>
+        </div>
+        <div>
+            <label for="FathersName">Father's Name</label>
+            <input id="FathersName" type="text" placeholder="Enter Father's Name" required>
+        </div>
+        x
+       
+        <div>
+            <label for="DOB">D O B</label>
+            <input id="DOB" type="date" placeholder="Enter your Birth">
+        </div>
+        <div>
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" placeholder="Your phone number">
+        </div>
+        <!-- Select id inputs -->
+        <div>
+            <label for="Gender">Gender</label>
+            <select id="Gender" required>
+                <option value="" disabled selected>Choose Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Transgender">Transgender</option>
+            </select>
+        </div>
+       
+        
+        <!-- Cheakbox -->
+        <div>
+            <input id="terms" type="checkbox" required>
+            <label for="terms">i agree the terms and conditions</label>
+        </div>
+        
+        <!-- text area for comments -->
+        <div>
+            <label for="comments">comments</label>
+            <textarea id="comments" placeholder="Give your feedback" rows="4"></textarea>
+        </div>
+        <!-- Submit button -->
+        <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+
+</html>
